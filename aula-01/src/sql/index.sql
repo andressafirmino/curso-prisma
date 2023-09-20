@@ -6,7 +6,7 @@ CREATE TABLE "posts" (
 )
 /* 
 	ALTER TABLE posts
-	ADD COLUMN "createAt" TIMESTAMP NOT NULL DEFAULT (new Date());
+	ADD COLUMN "createAt" TIMESTAMP NOT NULL DEFAULT NOW();
  */
 
  /* 
